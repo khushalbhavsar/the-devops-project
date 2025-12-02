@@ -17,7 +17,11 @@ http://localhost:5000
 // run with docker 
 
 cd ..
+
+sudo docker docker buildx build --platform linux/amd64,linux/arm64 -t docker.io/username/the-devops-project .
+or
 sudo docker build -t docker.io/username/the-devops-project .
+
 sudo docker run -d -p 5000:5000 docker.io/username/the-devops-project
 
 // run with eks 
