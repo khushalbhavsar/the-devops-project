@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: docker.io/atuljkamble/the-docker-project:latest
+        image: docker.io/khushalbhavsar/app:latest
         ports:
         - containerPort: 5000
